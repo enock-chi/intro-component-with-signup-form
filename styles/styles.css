@@ -1,0 +1,145 @@
+body{
+  position: relative;
+  background: url("/intro-component-with-signup-form/images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+input{
+  border-color: hsl(0, 100%, 74%);
+  height: 26px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 4px;
+  width: 450px;
+  
+}
+
+#container{
+  position: relative;
+  display: flex;
+}
+
+#info{
+  position: relative;
+  padding-left: 150px;
+  width: 750px;
+  color: white;
+  top: 280px;
+}
+
+#info h1{
+  position: relative;
+  font-size: 40px;
+  
+}
+
+#info p{
+  position: relative;
+  width: 400px;
+}
+
+#signup-form{
+  position: relative;
+  width: 750px;
+  padding-left: 30px;
+  top: 130px;
+}
+
+#signup-message{
+  position: relative;
+  height: 40px;
+  width: 520px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 5px;
+  left: -13%;
+  font-size: 12px;
+  box-shadow: 0 0 10px #333;
+}
+
+#signup-message p{
+  position: relative;
+  color: white;
+  left: 29%;
+  top: 10px;
+  
+}
+
+
+#form{
+  position: relative;
+   background-color: white;
+   width: 475px;
+   border-radius: 10px;
+   padding: 30px 30px 30px 30px;
+   margin: 15px;
+   left: -16%;
+}
+
+#form button{
+      position: relative;
+      width: 475px;
+      background-color: hsl(154, 59%, 51%);
+      border-style: none;
+      height: 40px;
+      color: white;
+      border-radius: 4px;
+      box-shadow: 0 0 10px #333;
+      margin-top: 10px;
+
+}
+
+#form img{
+  position: absolute;
+  left: 85%;
+  
+}
+
+#error-name-img{
+  top: 43px;
+}
+
+#error-surname-img{
+  top: 129px;
+}
+
+#error-email-img{
+  top: 211px;
+}
+
+#error-password-img{
+  top: 297px;
+}
+
+
+/*#form p{
+  position: relative;
+  color:  hsl(0, 100%, 74%);
+  font-size: 12px;
+  left: 15%;
+  margin: 0px 0px 0px 0px;
+}*/
+
+#form p span{
+  position: relative;
+  color:  hsl(0, 100%, 74%);
+
+}
+
+#form p{
+  position: relative;
+  color:  hsl(0, 100%, 74%);
+  font-size: 12px;
+  left: 60%;
+  margin: 0px 0px 0px 0px;
+}
+
+.error{
+  display:none;
+}
+
+.TnC{
+  left: 20% !important;
+  top: 5px !important;
+  
+}
